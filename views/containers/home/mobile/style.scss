@@ -44,5 +44,19 @@
     top: 300px;
     left: 50%;
     transform: translateX(-50%);
+
+    .btn-undangan {
+      @extend .px-20;
+      @extend .py-10;
+      font-family: "GreatVibes";
+      color: map-get($colors, tan);
+      font-weight: 600;
+      border: 2px solid map-get($colors, tan);
+      @extend .border-radius-10;
+
+      &:focus {
+        outline: none;
+      }
+    }
   }
 }
