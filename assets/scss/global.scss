@@ -2,7 +2,16 @@
 @import './color';
 
 body {
+  font-family: "BerkshireSwash";
+  src: local("BerkshireSwash"),
+   url(~assets/fonts/BerkshireSwash-Regular.ttf) format("truetype");
 	background-color: map-get($colors, body-bg);
+}
+
+@font-face {
+  font-family: "GreatVibes";
+  src: local("GreatVibes"),
+   url(~assets/fonts/GreatVibes-Regular.ttf) format("truetype");
 }
 
 // .slide-left-leave-active,

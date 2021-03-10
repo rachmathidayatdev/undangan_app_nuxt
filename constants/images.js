@@ -5,6 +5,7 @@ export default {
 	AVATAR: `${path}/avatar-image.png`,
 	BANNER_1: `${path}/banner-1.png`,
 	BANNER_2: `${path}/banner-2.png`,
+	DIVIDER: `${path}/divider.png`,
 	FOOD_1: `${path}/food-1.png`,
 	FOOD_2: `${path}/food-2.png`,
 	PHONE_1: `${path}/phone-1.png`,
