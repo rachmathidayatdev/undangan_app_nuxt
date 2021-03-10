@@ -18,10 +18,8 @@
 						>Radita</TextView
 					>
 					<TextView
-						custom-class="item-name font-48 custom-mt"
+						custom-class="item-name font-50 custom-mt"
 						text-alignment="center"
-						font-weight="bold"
-						font-color="tan"
 						>&</TextView
 					>
 					<TextView
