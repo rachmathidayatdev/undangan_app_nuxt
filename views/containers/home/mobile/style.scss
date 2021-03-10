@@ -1,0 +1,33 @@
+@import '~/assets/scss/global';
+
+.home {
+  display: block;
+  background-image: url('/images/rustic-theme.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: calc(100vh);
+
+  .header-container {
+    @extend .position-absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url('/images/rustic-header.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    height: calc(45vh);
+    width: 350px;
+
+    .item-content {
+      @extend .position-absolute;
+      background-color: map-get($colors, white);
+      top: 39%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 140px;
+      height: 60px;
+    }
+  }
+}

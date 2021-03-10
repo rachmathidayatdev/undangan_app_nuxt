@@ -1,0 +1,43 @@
+@import '~/assets/scss/global';
+
+.product {
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: map-get($colors, body-bg);
+  }
+
+  .item-image {
+    @extend .border-radius-50-rem;
+
+    img {
+      @extend .border-radius-50-rem;
+    }
+  }
+
+  .footer-container {
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    background-color: map-get($colors, body-bg);
+    width: 100%;
+
+    @extend .px-20;
+    @extend .py-20;
+
+    button {
+      background-color: map-get($colors, vermillion);
+      width: 100%;
+      height: 50px;
+      color: map-get($colors, white);
+      outline: none;
+      
+      @extend .border-radius-30;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

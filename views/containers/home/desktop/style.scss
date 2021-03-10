@@ -1,0 +1,142 @@
+@import '~/assets/scss/global';
+
+.landing {
+  @extend .position-relative;
+  background-color: map-get($colors, white);
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: map-get($colors, white);
+    @extend .py-10;
+    @extend .px-30;
+    z-index: 99;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  
+      li {
+        @extend .position-relative;
+        float: left;
+        @extend .py-10;
+        @extend .px-30;
+        @extend .cursor-pointer;
+  
+        &:hover, &.active {
+          div {
+            color: map-get($colors, vermillion);
+          }
+  
+          &:after {
+            border-bottom: 1px solid map-get($colors, vermillion);
+            content: '';
+            @extend .position-absolute;
+            left: 0;
+            right: 0;
+            width: 50%;
+            bottom: 0;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+  .banner-1 {
+    min-height: 619px;
+    background-image: url("/images/banner-1.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% auto;
+
+    button {
+      @extend .px-40;
+      @extend .py-10;
+      @extend .border-radius-20;
+      @extend .mx-10;
+      outline:none;
+
+      &:focus {
+        outline: none;
+      }
+
+      &.playstore {
+        background-color: map-get($colors, vermillion);
+        color: map-get($colors, white);
+      }
+
+      &.appstore {
+        background-color: map-get($colors, transparent);
+        border: 1px solid map-get($colors, white);
+        color: map-get($colors, white);
+      }
+    }
+  }
+
+  .content-container {
+    @extend .position-relative;
+    @extend .px-20-rem;
+
+    .app-works {
+      
+      img {
+        @extend .position-absolute;
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 98;
+      }
+    }
+
+    .divider {
+      border: 1px solid map-get($colors, heather);
+      height: 1px;
+      width: 100%;
+    }
+  }
+
+  .banner-2 {
+    min-height: 619px;
+    background-image: url("/images/banner-2.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100% auto;
+
+    button {
+      @extend .px-40;
+      @extend .py-10;
+      @extend .border-radius-10;
+      @extend .mx-10;
+      outline:none;
+
+      &:focus {
+        outline: none;
+      }
+
+      &.playstore {
+        background-color: map-get($colors, vermillion);
+        color: map-get($colors, white);
+      }
+
+      &.appstore {
+        background-color: map-get($colors, transparent);
+        border: 1px solid map-get($colors, white);
+        color: map-get($colors, white);
+      }
+    }
+  }
+
+  .footer {
+    @extend .p-30;
+
+    .item-sosmed {
+      img {
+        @extend .mx-10;
+      }
+    }
+  }
+}

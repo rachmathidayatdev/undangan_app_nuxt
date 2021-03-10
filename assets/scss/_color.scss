@@ -1,0 +1,51 @@
+$colors: (
+  body-bg: #F2F2F2,
+  transparent: transparent,
+  black: #000000,
+  white: #ffffff,
+  mariner: #296ebd,
+  manatee: #8a93a7,
+  heather: #c3c9d8,
+	pickledBlueWood: #35405a,
+	vermillion: #FF460A,
+	gallery: #EFEEEE,
+	tahitiGold: #F47B0A,
+  box-shadow: rgba(0, 0, 0, 0.08),
+);
+
+// mixin
+@mixin text-color($map) {
+	@each $color-name, $color in $map {
+		@if not map-has-key($map, $color-name) {
+			@warn "'#{$color-name}' is not a valid color name";
+		} @else {
+			&.font-color-#{$color-name} {
+				color: $color;
+			}
+		}
+	}
+}
+
+@mixin bg-color($map) {
+	@each $bg-name, $color in $map {
+		@if not map-has-key($map, $bg-name) {
+			@warn "'#{$bg-name}' is not a valid bg name";
+		} @else {
+			&.bg-color-#{$bg-name} {
+				background: $color;
+			}
+		}
+	}
+}
+
+@mixin border-color($map) {
+	@each $border-name, $color in $map {
+		@if not map-has-key($map, $border-name) {
+			@warn "'#{$border-name}' is not a valid border name";
+		} @else {
+			&.border-color-#{$border-name} {
+				border-color: $color;
+			}
+		}
+	}
+}
