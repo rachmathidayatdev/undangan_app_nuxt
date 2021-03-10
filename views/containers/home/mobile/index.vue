@@ -36,15 +36,12 @@
 				align-items="center"
 				justify-content="center"
 			>
-				<TextView custom-class="font-14" font-color="tan" font-weight="bold"
-					>Yth</TextView
+				<TextView custom-class="font-16" font-color="tan" font-weight="bold"
+					>Yth,</TextView
 				>
-				<TextView
-					custom-class="font-16 mt-5"
-					font-color="tan"
-					font-weight="bold"
-					>{{ guestName }}</TextView
-				>
+				<TextView custom-class="font-16" font-color="tan" font-weight="bold">{{
+					guestName
+				}}</TextView>
 				<Row custom-class="mt-5">
 					<img :src="images.divider" width="180" />
 				</Row>
