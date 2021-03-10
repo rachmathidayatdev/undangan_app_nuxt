@@ -5,29 +5,20 @@
   background-image: url('/images/rustic-theme.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: contain; /* Resize the background image to cover the entire container */
   height: calc(100vh);
 
-  .header-container {
-    @extend .position-absolute;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-image: url('/images/rustic-header.png');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: contain;
-    height: calc(45vh);
-    width: 350px;
+  .container {
+    height: calc(100vh);
+    width: 50%;
 
-    .item-content {
-      @extend .position-absolute;
-      background-color: map-get($colors, white);
-      top: 33%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 130px;
-      height: 80px;
+    .header-content {
+      background-image: url('/images/rustic-header.png');
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: contain;
+      width: 80%;
+      height: calc(45vh);
 
       .item-name {
         font-family: "GreatVibes";
@@ -37,25 +28,20 @@
         margin-top: -20px;
       }
     }
-  }
 
-  .body-container {
-    @extend .position-absolute;
-    top: 300px;
-    left: 50%;
-    transform: translateX(-50%);
-
-    .btn-undangan {
-      @extend .px-20;
-      @extend .py-10;
-      font-family: "GreatVibes";
-      color: map-get($colors, tan);
-      font-weight: 600;
-      border: 2px solid map-get($colors, tan);
-      @extend .border-radius-10;
-
-      &:focus {
-        outline: none;
+    .body-content {
+      .btn-undangan {
+        @extend .px-20;
+        @extend .py-10;
+        font-family: "GreatVibes";
+        color: map-get($colors, tan);
+        font-weight: 600;
+        border: 2px solid map-get($colors, tan);
+        @extend .border-radius-10;
+  
+        &:focus {
+          outline: none;
+        }
       }
     }
   }

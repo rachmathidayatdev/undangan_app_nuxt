@@ -15,10 +15,10 @@ export default {
 	},
 	computed: {
 		guestName() {
-			return this.$route.query.guestName || '-'
+			return this.$route.query.guestName || ''
 		},
 		guestLocation() {
-			return this.$route.query.guestLocation || '-'
+			return this.$route.query.guestLocation || ''
 		},
 	},
 	mounted() {},
