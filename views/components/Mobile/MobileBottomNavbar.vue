@@ -15,9 +15,9 @@
 		>
 			<img :src="item.icon" height="20" width="20" />
 			<TextView
-				custom-class="font-10"
+				custom-class="font-10 mt-5"
 				text-alignment="center"
-				:font-color="`${item.isActive ? 'vermillion' : 'black'}`"
+				:font-color="`${item.isActive ? 'tan' : 'white'}`"
 				>{{ item.label }}</TextView
 			>
 		</Column>
@@ -39,39 +39,91 @@ export default {
 			menu: [
 				{
 					icon:
-						this.$route.path === ROUTES.PRODUCT_LIST.url
-							? ICONS.HOME_ACTIVE_ICON
-							: ICONS.HOME_ICON,
-					label: 'Home',
-					isActive: this.$route.path === ROUTES.PRODUCT_LIST.url,
-					url: ROUTES.PRODUCT_LIST.url,
+						this.$route.path === ROUTES.INDEX.url
+							? ICONS.PENERIMA_ACTIVE_ICON
+							: ICONS.PENERIMA_ICON,
+					label: 'Penerima',
+					isActive: this.$route.path === ROUTES.INDEX.url,
+					url: `${ROUTES.INDEX.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
 				},
 				{
 					icon:
-						this.$route.path === ROUTES.FAVORIT.url
-							? ICONS.FAVORIT_ACTIVE_ICON
-							: ICONS.FAVORIT_ICON,
-					label: 'Favorit',
-					isActive: this.$route.path === ROUTES.FAVORIT.url,
-					url: ROUTES.PRODUCT_LIST.url,
+						this.$route.path === ROUTES.SAMPUL.url
+							? ICONS.SAMPUL_ACTIVE_ICON
+							: ICONS.SAMPUL_ICON,
+					label: 'Sampul',
+					isActive: this.$route.path === ROUTES.SAMPUL.url,
+					url: `${ROUTES.SAMPUL.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
 				},
 				{
 					icon:
-						this.$route.path === ROUTES.PROFILE.url
-							? ICONS.PROFILE_ACTIVE_ICON
-							: ICONS.PROFILE_ICON,
-					label: 'Profile',
-					isActive: this.$route.path === ROUTES.PROFILE.url,
-					url: ROUTES.PROFILE.url,
+						this.$route.path === ROUTES.INDEX.url
+							? ICONS.MEMPELAI_ACTIVE_ICON
+							: ICONS.MEMPELAI_ICON,
+					label: 'Mempelai',
+					isActive: this.$route.path === ROUTES.INDEX.url,
+					url: `${ROUTES.INDEX.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
 				},
 				{
 					icon:
-						this.$route.path === ROUTES.HISTORY.url
-							? ICONS.HISTORY_ACTIVE_ICON
-							: ICONS.HISTORY_ICON,
-					label: 'History',
-					isActive: this.$route.path === ROUTES.HISTORY.url,
-					url: ROUTES.HISTORY.url,
+						this.$route.path === ROUTES.INDEX.url
+							? ICONS.ACARA_ACTIVE_ICON
+							: ICONS.ACARA_ICON,
+					label: 'Acara',
+					isActive: this.$route.path === ROUTES.INDEX.url,
+					url: `${ROUTES.INDEX.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+				},
+				{
+					icon:
+						this.$route.path === ROUTES.PETA.url
+							? ICONS.PETA_ACTIVE_ICON
+							: ICONS.PETA_ICON,
+					label: 'Peta',
+					isActive: this.$route.path === ROUTES.PETA.url,
+					url: `${ROUTES.PETA.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+				},
+				{
+					icon:
+						this.$route.path === ROUTES.INDEX.url
+							? ICONS.GALERI_ACTIVE_ICON
+							: ICONS.GALERI_ICON,
+					label: 'Galeri',
+					isActive: this.$route.path === ROUTES.INDEX.url,
+					url: `${ROUTES.INDEX.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+				},
+				{
+					icon:
+						this.$route.path === ROUTES.PROTOKOL.url
+							? ICONS.PROTOKOL_ACTIVE_ICON
+							: ICONS.PROTOKOL_ICON,
+					label: 'Protokol',
+					isActive: this.$route.path === ROUTES.PROTOKOL.url,
+					url: `${ROUTES.PROTOKOL.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+				},
+				{
+					icon:
+						this.$route.path === ROUTES.INDEX.url
+							? ICONS.PENUTUP_ACTIVE_ICON
+							: ICONS.PENUTUP_ICON,
+					label: 'Penutup',
+					isActive: this.$route.path === ROUTES.PENUTUP.url,
+					url: `${ROUTES.PENUTUP.url}?guestName=${
+						this.$route.query.guestName || ''
+					}&guestLocation=${this.$route.query.guestLocation || ''}`,
 				},
 			],
 		}
@@ -94,6 +146,6 @@ export default {
 	bottom: 0;
 	width: 100%;
 	padding: 0.5rem 0.75rem 0.5rem 0.75rem;
-	background-color: map-get($colors, body-bg);
+	background-color: rgba(0, 0, 0, 0.5);
 }
 </style>

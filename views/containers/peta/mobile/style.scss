@@ -1,0 +1,19 @@
+@import '~/assets/scss/global';
+
+.peta {
+  display: block;
+  background-image: url('/images/rustic-theme.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  // background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: 100% 100%;
+  height: calc(100vh);
+
+  .container {
+    height: calc(100vh);
+
+    .item-title {
+      font-family: "GreatVibes";
+    }
+  }
+}

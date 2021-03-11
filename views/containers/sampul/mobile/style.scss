@@ -1,0 +1,19 @@
+@import '~/assets/scss/global';
+
+.sampul {
+  display: block;
+  background-image: url('/images/gallery-1-bw.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  // background-size: 100% 100%;
+  height: calc(100vh);
+
+  .container {
+    height: calc(100vh);
+
+    .item-title {
+      font-family: "GreatVibes";
+    }
+  }
+}

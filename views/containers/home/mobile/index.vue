@@ -36,28 +36,48 @@
 				align-items="center"
 				justify-content="center"
 			>
-				<TextView custom-class="font-16" font-color="tan" font-weight="bold"
-					>Yth,</TextView
-				>
-				<TextView custom-class="font-16" font-color="tan" font-weight="bold">{{
-					guestName
-				}}</TextView>
-				<Row custom-class="mt-5">
-					<img :src="images.divider" width="180" />
-				</Row>
-				<TextView
-					custom-class="font-14 mt-5"
-					font-color="tan"
-					font-weight="bold"
-					>( {{ guestLocation }} )</TextView
-				>
-				<button
-					v-if="guestName && guestLocation"
-					class="btn-undangan mt-20"
-					type="button"
-				>
-					Buka Undangan
-				</button>
+				<CustomTransition duration="1s">
+					<TextView
+						v-if="isComponentShow"
+						custom-class="font-16"
+						font-color="tan"
+						font-weight="bold"
+						>Yth,</TextView
+					>
+				</CustomTransition>
+				<CustomTransition duration="1.5s">
+					<TextView
+						v-if="isComponentShow"
+						custom-class="font-16"
+						font-color="tan"
+						font-weight="bold"
+						>{{ guestName }}</TextView
+					>
+				</CustomTransition>
+				<CustomTransition name="bounce-custom">
+					<Row v-if="isComponentShow" custom-class="mt-5">
+						<img :src="images.divider" width="180" />
+					</Row>
+				</CustomTransition>
+				<CustomTransition duration="2.5s">
+					<TextView
+						v-if="isComponentShow"
+						custom-class="font-14 mt-5"
+						font-color="tan"
+						font-weight="bold"
+						>( {{ guestLocation }} )</TextView
+					>
+				</CustomTransition>
+				<CustomTransition name="bounce-custom">
+					<button
+						v-if="isComponentShow && guestName && guestLocation"
+						class="btn-undangan mt-20"
+						type="button"
+						@click="goToMain"
+					>
+						Buka Undangan
+					</button>
+				</CustomTransition>
 			</Column>
 		</Column>
 	</div>
