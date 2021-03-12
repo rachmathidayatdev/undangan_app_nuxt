@@ -28,10 +28,17 @@ const PROTOKOL = {
 	url: '/protokol',
 }
 
+const ACARA = {
+	href: '/acara.vue',
+	route: '/acara',
+	url: '/acara',
+}
+
 module.exports = {
 	INDEX,
 	SAMPUL,
 	PENUTUP,
 	PETA,
 	PROTOKOL,
+	ACARA,
 }

@@ -8,8 +8,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>Merupakan suatu kehormatan dan kebahagiaan bagi kami</TextView
 				>
@@ -17,8 +17,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>apabila Bapak/Ibu/Saudara/i berkenan hadir untuk</TextView
 				>
@@ -26,8 +26,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>memberikan doa restu kepada kedua mempelai.</TextView
 				>
@@ -35,8 +35,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12 mt-10"
-					font-color="tan"
+					custom-class="font-14 mt-10"
+					font-color="goldenDream"
 					text-alignment="center"
 					>"Dan Kami menciptakan kamu berpasang-pasangan."</TextView
 				>
@@ -44,8 +44,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>(QS. An Nabaa : 78)</TextView
 				>
@@ -53,8 +53,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-14 item-title mt-10"
-					font-color="tan"
+					custom-class="font-14 mt-10"
+					font-color="goldenDream"
 					text-alignment="center"
 					>Wasalamu'alaikum Warahmatullahi Wabarakatuh</TextView
 				>
@@ -62,8 +62,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12 mt-10"
-					font-color="tan"
+					custom-class="font-14 mt-10"
+					font-color="goldenDream"
 					text-alignment="center"
 					>Turut berbahagia,</TextView
 				>
@@ -71,8 +71,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>Segenap keluarga besar</TextView
 				>
@@ -81,9 +81,9 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-28 item-title mt-10"
-					font-color="tan"
+					font-color="goldenDream"
 					text-alignment="center"
-					font-weight="bold"
+					font-weight="400"
 					>Radita & Rachmat</TextView
 				>
 			</CustomTransition>

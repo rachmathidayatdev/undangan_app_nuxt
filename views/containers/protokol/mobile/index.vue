@@ -5,7 +5,7 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-28 item-title"
-					font-color="tan"
+					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="bold"
 					>Pencegahan Covid-19</TextView
@@ -14,8 +14,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>Acara ini akan diselenggarakan dengan mematuhi</TextView
 				>
@@ -23,8 +23,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>protokol pencegahan penyebaran COVID-19.</TextView
 				>
@@ -32,16 +32,16 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12 mt-10"
-					font-color="tan"
+					custom-class="font-14 mt-10"
+					font-color="goldenDream"
 					>Tamu undangan menggunakan masker.</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12 mt-10"
-					font-color="tan"
+					custom-class="font-14 mt-10"
+					font-color="goldenDream"
 					text-alignment="right"
 					>Suhu Tubuh normal (dibahwah 37,5C)</TextView
 				>
@@ -49,16 +49,16 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12 mt-10"
-					font-color="tan"
+					custom-class="font-14 mt-10"
+					font-color="goldenDream"
 					>Jaga jarak antar orang sekitar 2 meter.</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12 mt-10"
-					font-color="tan"
+					custom-class="font-14 mt-10"
+					font-color="goldenDream"
 					text-alignment="right"
 					>Cuci tangan menggunakan air dan sabun atau menggunakan hand
 					sanitizer.</TextView
@@ -67,8 +67,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12 mt-20"
-					font-color="tan"
+					custom-class="font-14 mt-20"
+					font-color="goldenDream"
 					text-alignment="center"
 					>Bagi para tamu undangan diharapkan mengikuti</TextView
 				>
@@ -76,8 +76,8 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="tan"
+					custom-class="font-14"
+					font-color="goldenDream"
 					text-alignment="center"
 					>protokol pencegahan COVID-19</TextView
 				>

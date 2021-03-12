@@ -2,7 +2,8 @@
 
 .home {
   display: block;
-  background-image: url('/images/rustic-theme.png');
+  background-color: #306642;
+  background-image: url('/images/rustic-theme-3.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   // background-size: contain; /* Resize the background image to cover the entire container */
@@ -14,7 +15,7 @@
     width: 100%;
 
     .header-content {
-      background-image: url('/images/rustic-header.png');
+      background-image: url('/images/rustic-header-3.png');
       background-position: center; /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: contain;
@@ -22,7 +23,7 @@
       height: calc(45vh);
 
       .item-name {
-        font-family: "GreatVibes";
+        font-family: "Niconne";
       }
 
       .custom-mt {
@@ -35,9 +36,9 @@
         @extend .px-20;
         @extend .py-10;
         font-family: "GreatVibes";
-        color: map-get($colors, tan);
+        color: map-get($colors, goldenDream);
         font-weight: 600;
-        border: 2px solid map-get($colors, tan);
+        border: 2px solid map-get($colors, goldenDream);
         @extend .border-radius-10;
   
         &:focus {

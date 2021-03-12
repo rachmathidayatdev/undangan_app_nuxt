@@ -72,12 +72,12 @@ export default {
 				},
 				{
 					icon:
-						this.$route.path === ROUTES.INDEX.url
+						this.$route.path === ROUTES.ACARA.url
 							? ICONS.ACARA_ACTIVE_ICON
 							: ICONS.ACARA_ICON,
 					label: 'Acara',
-					isActive: this.$route.path === ROUTES.INDEX.url,
-					url: `${ROUTES.INDEX.url}?guestName=${
+					isActive: this.$route.path === ROUTES.ACARA.url,
+					url: `${ROUTES.ACARA.url}?guestName=${
 						this.$route.query.guestName || ''
 					}&guestLocation=${this.$route.query.guestLocation || ''}`,
 				},

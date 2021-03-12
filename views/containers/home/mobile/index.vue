@@ -12,21 +12,22 @@
 			>
 				<Column col="6">
 					<TextView
-						custom-class="item-name font-28"
-						font-weight="600"
-						font-color="tan"
+						custom-class="item-name font-38"
+						font-weight="400"
+						font-color="goldenDream"
 						>Radita</TextView
 					>
 					<TextView
 						custom-class="item-name font-50 custom-mt"
 						text-alignment="center"
+						font-color="goldenDream"
 						>&</TextView
 					>
 					<TextView
-						custom-class="item-name font-28 custom-mt"
+						custom-class="item-name font-38 custom-mt"
 						text-alignment="right"
-						font-weight="600"
-						font-color="tan"
+						font-weight="400"
+						font-color="goldenDream"
 						>Rachmat</TextView
 					>
 				</Column>
@@ -40,16 +41,16 @@
 					<TextView
 						v-if="isComponentShow"
 						custom-class="font-16"
-						font-color="tan"
+						font-color="goldenDream"
 						font-weight="bold"
-						>Yth,</TextView
+						>Kepada Yth,</TextView
 					>
 				</CustomTransition>
 				<CustomTransition duration="1.5s">
 					<TextView
 						v-if="isComponentShow"
 						custom-class="font-16"
-						font-color="tan"
+						font-color="goldenDream"
 						font-weight="bold"
 						>{{ guestName }}</TextView
 					>
@@ -63,7 +64,7 @@
 					<TextView
 						v-if="isComponentShow"
 						custom-class="font-14 mt-5"
-						font-color="tan"
+						font-color="goldenDream"
 						font-weight="bold"
 						>( {{ guestLocation }} )</TextView
 					>

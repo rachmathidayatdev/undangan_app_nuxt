@@ -2,7 +2,8 @@
 
 .peta {
   display: block;
-  background-image: url('/images/rustic-theme.png');
+  background-color: #306642;
+  background-image: url('/images/rustic-theme-3.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   // background-size: cover; /* Resize the background image to cover the entire container */
@@ -13,7 +14,7 @@
     height: calc(100vh);
 
     .item-title {
-      font-family: "GreatVibes";
+      font-family: "Niconne";
     }
   }
 }
