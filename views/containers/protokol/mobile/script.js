@@ -1,4 +1,5 @@
 import IMAGES from '~/constants/images'
+import ICONS from '~/constants/icons'
 
 export default {
 	components: {
@@ -11,6 +12,12 @@ export default {
 		return {
 			images: {
 				divider: IMAGES.DIVIDER,
+			},
+			icons: {
+				distance: ICONS.DISTANCE_ICON,
+				handWashing: ICONS.HAND_WASHING_ICON,
+				heat: ICONS.HEAT_ICON,
+				mask: ICONS.MASK_ICON,
 			},
 			isComponentShow: false,
 		}

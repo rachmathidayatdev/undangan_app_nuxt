@@ -8,7 +8,7 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-16"
+					custom-class="font-18"
 					font-color="white"
 					font-weight="bold"
 					>The Wedding of</TextView
@@ -17,16 +17,16 @@
 			<CustomTransition name="bounce-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="item-title font-28"
+					custom-class="item-title font-38"
 					font-color="white"
-					font-weight="bold"
+					font-weight="400"
 					>Radita & Rachmat</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-bottom-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-16"
+					custom-class="font-18"
 					font-color="white"
 					font-weight="bold"
 					>29 . 05 . 2021</TextView

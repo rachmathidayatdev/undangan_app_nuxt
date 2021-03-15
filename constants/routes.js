@@ -34,6 +34,12 @@ const ACARA = {
 	url: '/acara',
 }
 
+const MEMPELAI = {
+	href: '/mempelai.vue',
+	route: '/mempelai',
+	url: '/mempelai',
+}
+
 module.exports = {
 	INDEX,
 	SAMPUL,
@@ -41,4 +47,5 @@ module.exports = {
 	PETA,
 	PROTOKOL,
 	ACARA,
+	MEMPELAI,
 }

@@ -4,10 +4,10 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-28 item-title mb-10"
+					custom-class="font-38 item-title mb-10"
 					font-color="goldenDream"
 					text-alignment="center"
-					font-weight="bold"
+					font-weight="400"
 					>Rangkaian Acara</TextView
 				>
 			</CustomTransition>
@@ -20,7 +20,7 @@
 					><span class="line-text-center">Akad Nikah</span></TextView
 				>
 			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
+			<CustomTransition name="bounce-custom">
 				<Row v-if="isComponentShow" custom-class="mt-5">
 					<Column col="5">
 						<TextView
@@ -37,9 +37,9 @@
 							>{{ jamAkad }} WIB</TextView
 						>
 					</Column>
-					<Column col="2">
+					<Column col="2" custom-class="rounded-box" height="55px">
 						<TextView
-							custom-class="font-28 item-tanggal"
+							custom-class="font-28"
 							font-color="goldenDream"
 							text-alignment="center"
 							font-weight="bold"
@@ -59,7 +59,7 @@
 					</Column>
 				</Row>
 			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
+			<CustomTransition name="bounce-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14 my-10"
@@ -77,7 +77,7 @@
 					><span class="line-text-center">Resepsi</span></TextView
 				>
 			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
+			<CustomTransition name="bounce-custom">
 				<Row v-if="isComponentShow" custom-class="mt-5">
 					<Column col="5">
 						<TextView
@@ -94,9 +94,9 @@
 							>{{ jamResepsi }} WIB</TextView
 						>
 					</Column>
-					<Column col="2">
+					<Column col="2" custom-class="rounded-box" height="55px">
 						<TextView
-							custom-class="font-28 item-tanggal"
+							custom-class="font-28"
 							font-color="goldenDream"
 							text-alignment="center"
 							font-weight="bold"
@@ -116,7 +116,7 @@
 					</Column>
 				</Row>
 			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
+			<CustomTransition name="bounce-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14 my-10"
@@ -125,7 +125,7 @@
 					>Aula Muzdalifah, Islamic Center Bekasi</TextView
 				>
 			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
+			<CustomTransition name="slide-bottom-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14 mb-10"
@@ -134,14 +134,14 @@
 					>Hitungan Mundur Acara Resepsi</TextView
 				>
 			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
+			<CustomTransition name="slide-bottom-custom">
 				<Row v-if="isComponentShow">
 					<Column
 						col="3"
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="75px"
+						height="85px"
 					>
 						<TextView
 							custom-class="font-18"
@@ -163,7 +163,7 @@
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="75px"
+						height="85px"
 					>
 						<TextView
 							custom-class="font-18"
@@ -185,7 +185,7 @@
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="75px"
+						height="85px"
 					>
 						<TextView
 							custom-class="font-18"
@@ -207,7 +207,7 @@
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="75px"
+						height="85px"
 					>
 						<TextView
 							custom-class="font-18"

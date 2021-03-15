@@ -1,6 +1,8 @@
 const path = '/images'
 
 export default {
+	CPP: `${path}/cpp.jpg`,
+	CPW: `${path}/cpw.jpg`,
 	DIVIDER: `${path}/divider.png`,
 	GALLERY_1: `${path}/gallery-1.jpg`,
 	GALLERY_1_BW: `${path}/gallery-1-bw.jpg`,

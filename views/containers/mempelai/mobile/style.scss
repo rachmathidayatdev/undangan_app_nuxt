@@ -1,0 +1,42 @@
+@import '~/assets/scss/global';
+
+.acara {
+  display: block;
+  background-color: #2a5341;
+  background-image: url('/images/rustic-theme-3.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  // background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: 100% 100%;
+  height: calc(100vh);
+
+  .container {
+    height: calc(100vh);
+
+    .line-center {
+      text-align: center; 
+      border-bottom: 1px solid map-get($colors, goldenDream); 
+      line-height: 0.1em;
+      margin: 10px 0 20px;
+
+      .line-text-center {
+        background-color: #2a5341;
+        @extend .px-10;
+      }
+    }
+
+    .item-title {
+      font-family: "Niconne";
+    }
+
+    .rounded-box {
+      border: 2px solid map-get($colors, goldenDream);
+      @extend .border-radius-50;
+    }
+
+    .custom-img {
+      height: 105px;
+      background-size: cover;
+    }
+  }
+}

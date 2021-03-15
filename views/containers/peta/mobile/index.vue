@@ -8,10 +8,10 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-28 item-title"
+					custom-class="font-38 item-title mb-10"
 					font-color="goldenDream"
 					text-alignment="center"
-					font-weight="bold"
+					font-weight="400"
 					>Peta Lokasi</TextView
 				>
 			</CustomTransition>
@@ -22,19 +22,21 @@
 					font-color="goldenDream"
 					text-alignment="center"
 					>Jalan Kemakmuran No.72, Marga Jaya, Bekasi Selatan, RT.005/RW.002,
-					Marga Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17141</TextView
+					Marga Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17141,
+					Indonesia</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-top-custom">
 				<Row v-if="isComponentShow" custom-class="mt-10">
 					<iframe
+						id="gmap_canvas"
 						width="100%"
 						height="300"
 						frameborder="0"
 						scrolling="no"
 						marginheight="0"
 						marginwidth="0"
-						src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Jalan%20Kemakmuran%20No.72,%20Marga%20Jaya,%20Bekasi%20Selatan,%20RT.005/RW.002,%20Marga%20Jaya,%20Kec.%20Bekasi%20Sel.,%20Kota%20Bks,%20Jawa%20Barat%2017141+(Aula%20Muzdalifah)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+						src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Aula%20Muzdalifah%20Jakarta+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
 					></iframe>
 				</Row>
 			</CustomTransition>

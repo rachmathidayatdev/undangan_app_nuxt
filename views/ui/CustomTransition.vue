@@ -78,7 +78,7 @@ export default {
 
 .bounce-custom-enter-active,
 .bounce-custom-leave-active {
-	transition: all 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+	transition: all 500ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
 }
 .bounce-custom-enter,
 .bounce-custom-leave-to {

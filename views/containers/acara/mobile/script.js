@@ -39,6 +39,16 @@ export default {
 				return '12.00 - 13.00'
 			}
 		},
+		startTime() {
+			const sesi = this.$route.query.sesi || 1
+			if (sesi === '1') {
+				return '10:00:00'
+			} else if (sesi === '2') {
+				return '11:00:00'
+			} else {
+				return '12:00:00'
+			}
+		},
 	},
 	mounted() {
 		setTimeout(() => {
@@ -52,7 +62,7 @@ export default {
 	methods: {
 		timer() {
 			const startDate = moment(new Date()).format('YYYY-MM-DD HH:mm:ss')
-			const endDate = moment('2021-05-29 10:00:00')
+			const endDate = moment(`2021-05-29 ${this.startTime}`)
 			const days = endDate.diff(startDate, 'days')
 			this.days = days
 			const hours = endDate.diff(startDate, 'hours')

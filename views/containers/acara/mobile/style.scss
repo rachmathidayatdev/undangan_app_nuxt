@@ -2,7 +2,7 @@
 
 .acara {
   display: block;
-  background-color: #306642;
+  background-color: #2a5341;
   background-image: url('/images/rustic-theme-3.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -20,18 +20,13 @@
       margin: 10px 0 20px;
 
       .line-text-center {
-        background-color: #306642;
+        background-color: #2a5341;
         @extend .px-10;
       }
     }
 
     .item-title {
       font-family: "Niconne";
-    }
-
-    .item-tanggal {
-      border: 2px solid map-get($colors, goldenDream);
-      @extend .border-radius-50;
     }
 
     .rounded-box {

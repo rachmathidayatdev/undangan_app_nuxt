@@ -17,7 +17,7 @@
 			<TextView
 				custom-class="font-10 mt-5"
 				text-alignment="center"
-				:font-color="`${item.isActive ? 'tan' : 'white'}`"
+				:font-color="`${item.isActive ? 'goldenDream' : 'white'}`"
 				>{{ item.label }}</TextView
 			>
 		</Column>
@@ -46,7 +46,9 @@ export default {
 					isActive: this.$route.path === ROUTES.INDEX.url,
 					url: `${ROUTES.INDEX.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 				{
 					icon:
@@ -57,18 +59,22 @@ export default {
 					isActive: this.$route.path === ROUTES.SAMPUL.url,
 					url: `${ROUTES.SAMPUL.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 				{
 					icon:
-						this.$route.path === ROUTES.INDEX.url
+						this.$route.path === ROUTES.MEMPELAI.url
 							? ICONS.MEMPELAI_ACTIVE_ICON
 							: ICONS.MEMPELAI_ICON,
 					label: 'Mempelai',
-					isActive: this.$route.path === ROUTES.INDEX.url,
-					url: `${ROUTES.INDEX.url}?guestName=${
+					isActive: this.$route.path === ROUTES.MEMPELAI.url,
+					url: `${ROUTES.MEMPELAI.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 				{
 					icon:
@@ -79,7 +85,9 @@ export default {
 					isActive: this.$route.path === ROUTES.ACARA.url,
 					url: `${ROUTES.ACARA.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 				{
 					icon:
@@ -90,7 +98,9 @@ export default {
 					isActive: this.$route.path === ROUTES.PETA.url,
 					url: `${ROUTES.PETA.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 				{
 					icon:
@@ -101,7 +111,9 @@ export default {
 					isActive: this.$route.path === ROUTES.INDEX.url,
 					url: `${ROUTES.INDEX.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 				{
 					icon:
@@ -112,7 +124,9 @@ export default {
 					isActive: this.$route.path === ROUTES.PROTOKOL.url,
 					url: `${ROUTES.PROTOKOL.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 				{
 					icon:
@@ -123,7 +137,9 @@ export default {
 					isActive: this.$route.path === ROUTES.PENUTUP.url,
 					url: `${ROUTES.PENUTUP.url}?guestName=${
 						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}`,
+					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
+						this.$route.query.sesi || '1'
+					}`,
 				},
 			],
 		}
