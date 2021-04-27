@@ -5,7 +5,7 @@ $fontSizeLength: ();
 }
 
 @each $i in $fontSizeLength {
-	&.font-#{$i} {
+	.font-#{$i} {
 		font-size: #{$i}px;
 	}
 }

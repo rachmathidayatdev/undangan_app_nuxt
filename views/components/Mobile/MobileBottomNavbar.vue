@@ -1,7 +1,7 @@
 <template>
 	<GridView
 		custom-class="bottom-navbar"
-		cols="4"
+		cols="6"
 		grid-row-gap="10px"
 		grid-col-gap="20px"
 	>
@@ -37,19 +37,6 @@ export default {
 	data() {
 		return {
 			menu: [
-				{
-					icon:
-						this.$route.path === ROUTES.INDEX.url
-							? ICONS.PENERIMA_ACTIVE_ICON
-							: ICONS.PENERIMA_ICON,
-					label: 'Penerima',
-					isActive: this.$route.path === ROUTES.INDEX.url,
-					url: `${ROUTES.INDEX.url}?guestName=${
-						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
-						this.$route.query.sesi || '1'
-					}`,
-				},
 				{
 					icon:
 						this.$route.path === ROUTES.SAMPUL.url
@@ -97,19 +84,6 @@ export default {
 					label: 'Peta',
 					isActive: this.$route.path === ROUTES.PETA.url,
 					url: `${ROUTES.PETA.url}?guestName=${
-						this.$route.query.guestName || ''
-					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
-						this.$route.query.sesi || '1'
-					}`,
-				},
-				{
-					icon:
-						this.$route.path === ROUTES.INDEX.url
-							? ICONS.GALERI_ACTIVE_ICON
-							: ICONS.GALERI_ICON,
-					label: 'Galeri',
-					isActive: this.$route.path === ROUTES.INDEX.url,
-					url: `${ROUTES.INDEX.url}?guestName=${
 						this.$route.query.guestName || ''
 					}&guestLocation=${this.$route.query.guestLocation || ''}&sesi=${
 						this.$route.query.sesi || '1'

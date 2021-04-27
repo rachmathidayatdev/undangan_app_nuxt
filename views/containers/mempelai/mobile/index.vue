@@ -54,8 +54,17 @@
 					align-items="center"
 					justify-content="center"
 				>
-					<Column col="4" custom-class="rounded-box">
-						<img :src="images.cpw" class="border-radius-50" />
+					<Column
+						col="4"
+						custom-class="rounded-box"
+						height="100px"
+						width="100px"
+					>
+						<img
+							:src="images.cpw"
+							class="border-radius-50"
+							style="height: 96px; width: 100px"
+						/>
 					</Column>
 					<Column col="8" align-items="center">
 						<TextView
@@ -129,8 +138,17 @@
 							>Ibu Arni</TextView
 						>
 					</Column>
-					<Column col="4" custom-class="rounded-box" height="109px">
-						<img :src="images.cpp" class="border-radius-50 custom-img" />
+					<Column
+						col="4"
+						custom-class="rounded-box"
+						height="100px"
+						width="100px"
+					>
+						<img
+							:src="images.cpp"
+							class="border-radius-50"
+							style="height: 96px; width: 100px"
+						/>
 					</Column>
 				</Row>
 			</CustomTransition>

@@ -37,7 +37,7 @@
 							>{{ jamAkad }} WIB</TextView
 						>
 					</Column>
-					<Column col="2" custom-class="rounded-box" height="55px">
+					<Column col="2" custom-class="rounded-box" height="50px" width="50px">
 						<TextView
 							custom-class="font-28"
 							font-color="goldenDream"
@@ -94,7 +94,7 @@
 							>{{ jamResepsi }} WIB</TextView
 						>
 					</Column>
-					<Column col="2" custom-class="rounded-box" height="55px">
+					<Column col="2" custom-class="rounded-box" height="50px" width="50px">
 						<TextView
 							custom-class="font-28"
 							font-color="goldenDream"
@@ -141,7 +141,8 @@
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="85px"
+						height="72px"
+						width="72px"
 					>
 						<TextView
 							custom-class="font-18"
@@ -163,7 +164,8 @@
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="85px"
+						height="72px"
+						width="72px"
 					>
 						<TextView
 							custom-class="font-18"
@@ -185,7 +187,8 @@
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="85px"
+						height="72px"
+						width="72px"
 					>
 						<TextView
 							custom-class="font-18"
@@ -207,7 +210,8 @@
 						align-items="center"
 						justify-content="center"
 						custom-class="px-5 rounded-box"
-						height="85px"
+						height="72px"
+						width="72px"
 					>
 						<TextView
 							custom-class="font-18"
