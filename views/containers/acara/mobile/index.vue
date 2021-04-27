@@ -149,7 +149,7 @@
 							font-color="goldenDream"
 							text-alignment="center"
 							font-weight="bold"
-							>{{ days }}</TextView
+							>{{ daysDisplay }}</TextView
 						>
 						<TextView
 							custom-class="font-14"
@@ -172,7 +172,7 @@
 							font-color="goldenDream"
 							text-alignment="center"
 							font-weight="bold"
-							>{{ hours }}</TextView
+							>{{ hoursDisplay }}</TextView
 						>
 						<TextView
 							custom-class="font-14"
@@ -195,7 +195,7 @@
 							font-color="goldenDream"
 							text-alignment="center"
 							font-weight="bold"
-							>{{ minutes }}</TextView
+							>{{ minutesDisplay }}</TextView
 						>
 						<TextView
 							custom-class="font-14"
@@ -218,7 +218,7 @@
 							font-color="goldenDream"
 							text-alignment="center"
 							font-weight="bold"
-							>{{ seconds }}</TextView
+							>{{ secondsDisplay }}</TextView
 						>
 						<TextView
 							custom-class="font-14"

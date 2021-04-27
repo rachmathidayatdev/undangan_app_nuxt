@@ -49,6 +49,18 @@ export default {
 				return '12:00:00'
 			}
 		},
+		daysDisplay() {
+			return this.days < 10 ? `0${this.days}` : this.days
+		},
+		hoursDisplay() {
+			return this.hours < 10 ? `0${this.hours}` : this.hours
+		},
+		minutesDisplay() {
+			return this.minutes < 10 ? `0${this.minutes}` : this.minutes
+		},
+		secondsDisplay() {
+			return this.seconds < 10 ? `0${this.seconds}` : this.seconds
+		},
 	},
 	mounted() {
 		setTimeout(() => {
