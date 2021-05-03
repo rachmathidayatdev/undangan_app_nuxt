@@ -37,14 +37,8 @@
 							>{{ jamAkad }} WIB</TextView
 						>
 					</Column>
-					<Column col="2">
-						<Column
-							custom-class="rounded-box"
-							align-items="center"
-							justify-content="center"
-							height="50px"
-							width="50px"
-						>
+					<Column col="2" align-items="center" justify-content="center">
+						<div class="rounded-box py-7 px-15" style="width: 60px">
 							<TextView
 								custom-class="font-28"
 								font-color="goldenDream"
@@ -52,7 +46,7 @@
 								font-weight="bold"
 								>29</TextView
 							>
-						</Column>
+						</div>
 					</Column>
 					<Column col="5">
 						<TextView
@@ -102,14 +96,8 @@
 							>{{ jamResepsi }} WIB</TextView
 						>
 					</Column>
-					<Column col="2">
-						<Column
-							custom-class="rounded-box"
-							align-items="center"
-							justify-content="center"
-							height="50px"
-							width="50px"
-						>
+					<Column col="2" align-items="center" justify-content="center">
+						<div class="rounded-box py-7 px-15" style="width: 60px">
 							<TextView
 								custom-class="font-28"
 								font-color="goldenDream"
@@ -117,7 +105,7 @@
 								font-weight="bold"
 								>29</TextView
 							>
-						</Column>
+						</div>
 					</Column>
 					<Column col="5">
 						<TextView
@@ -156,24 +144,24 @@
 						col="3"
 						align-items="center"
 						justify-content="center"
-						custom-class="px-5 rounded-box"
-						height="72px"
-						width="72px"
+						custom-class="px-5"
 					>
-						<TextView
-							custom-class="font-18"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>{{ daysDisplay }}</TextView
-						>
-						<TextView
-							custom-class="font-14"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>Hari</TextView
-						>
+						<div class="rounded-box py-7 px-15" style="width: 65px">
+							<TextView
+								custom-class="font-18"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>{{ daysDisplay }}</TextView
+							>
+							<TextView
+								custom-class="font-14"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>Hari</TextView
+							>
+						</div>
 					</Column>
 					<Column
 						col="3"
@@ -181,13 +169,7 @@
 						justify-content="center"
 						custom-class="px-5"
 					>
-						<Column
-							custom-class="rounded-box"
-							align-items="center"
-							justify-content="center"
-							height="65px"
-							width="65px"
-						>
+						<div class="rounded-box py-7 px-15" style="width: 65px">
 							<TextView
 								custom-class="font-18"
 								font-color="goldenDream"
@@ -202,7 +184,7 @@
 								font-weight="bold"
 								>Jam</TextView
 							>
-						</Column>
+						</div>
 					</Column>
 					<Column
 						col="3"
@@ -210,13 +192,7 @@
 						justify-content="center"
 						custom-class="px-5"
 					>
-						<Column
-							custom-class="rounded-box"
-							align-items="center"
-							justify-content="center"
-							height="65px"
-							width="65px"
-						>
+						<div class="rounded-box py-7 px-15" style="width: 65px">
 							<TextView
 								custom-class="font-18"
 								font-color="goldenDream"
@@ -231,7 +207,7 @@
 								font-weight="bold"
 								>Menit</TextView
 							>
-						</Column>
+						</div>
 					</Column>
 					<Column
 						col="3"
@@ -239,13 +215,7 @@
 						justify-content="center"
 						custom-class="px-5"
 					>
-						<Column
-							custom-class="rounded-box"
-							align-items="center"
-							justify-content="center"
-							height="65px"
-							width="65px"
-						>
+						<div class="rounded-box py-7 px-15" style="width: 65px">
 							<TextView
 								custom-class="font-18"
 								font-color="goldenDream"
@@ -260,7 +230,7 @@
 								font-weight="bold"
 								>Detik</TextView
 							>
-						</Column>
+						</div>
 					</Column>
 				</Row>
 			</CustomTransition>

@@ -55,19 +55,13 @@
 					justify-content="center"
 				>
 					<Column col="4" align-items="center" justify-content="center">
-						<Column
-							custom-class="rounded-box"
-							align-items="center"
-							justify-content="center"
-							height="100px"
-							width="100px"
-						>
+						<div class="rounded-box" style="width: 100px; height=100px">
 							<img
 								:src="images.cpw"
 								class="border-radius-50"
-								style="height: 100px; width: 100px"
+								style="height: 100px; width: 100px; object-fit: cover"
 							/>
-						</Column>
+						</div>
 					</Column>
 					<Column col="8" align-items="center">
 						<TextView
@@ -142,19 +136,13 @@
 						>
 					</Column>
 					<Column col="4" align-items="center" justify-content="center">
-						<Column
-							custom-class="rounded-box"
-							align-items="center"
-							justify-content="center"
-							height="100px"
-							width="100px"
-						>
+						<div class="rounded-box" style="width: 100px; height=100px">
 							<img
 								:src="images.cpp"
 								class="border-radius-50"
-								style="height: 100px; width: 100px"
+								style="height: 100px; width: 100px; object-fit: cover"
 							/>
-						</Column>
+						</div>
 					</Column>
 				</Row>
 			</CustomTransition>

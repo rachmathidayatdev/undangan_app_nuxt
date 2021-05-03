@@ -31,7 +31,7 @@
 
     .rounded-box {
       border: 2px solid map-get($colors, goldenDream);
-      @extend .border-radius-50;
+      @extend .border-radius-100;
     }
   }
 }
