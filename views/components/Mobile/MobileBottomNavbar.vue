@@ -104,7 +104,7 @@ export default {
 				},
 				{
 					icon:
-						this.$route.path === ROUTES.INDEX.url
+						this.$route.path === ROUTES.PENUTUP.url
 							? ICONS.PENUTUP_ACTIVE_ICON
 							: ICONS.PENUTUP_ICON,
 					label: 'Penutup',
