@@ -37,14 +37,22 @@
 							>{{ jamAkad }} WIB</TextView
 						>
 					</Column>
-					<Column col="2" custom-class="rounded-box" height="50px" width="50px">
-						<TextView
-							custom-class="font-28"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>29</TextView
+					<Column col="2">
+						<Column
+							custom-class="rounded-box"
+							align-items="center"
+							justify-content="center"
+							height="50px"
+							width="50px"
 						>
+							<TextView
+								custom-class="font-28"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>29</TextView
+							>
+						</Column>
 					</Column>
 					<Column col="5">
 						<TextView
@@ -94,14 +102,22 @@
 							>{{ jamResepsi }} WIB</TextView
 						>
 					</Column>
-					<Column col="2" custom-class="rounded-box" height="50px" width="50px">
-						<TextView
-							custom-class="font-28"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>29</TextView
+					<Column col="2">
+						<Column
+							custom-class="rounded-box"
+							align-items="center"
+							justify-content="center"
+							height="50px"
+							width="50px"
 						>
+							<TextView
+								custom-class="font-28"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>29</TextView
+							>
+						</Column>
 					</Column>
 					<Column col="5">
 						<TextView
@@ -163,71 +179,89 @@
 						col="3"
 						align-items="center"
 						justify-content="center"
-						custom-class="px-5 rounded-box"
-						height="72px"
-						width="72px"
+						custom-class="px-5"
 					>
-						<TextView
-							custom-class="font-18"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>{{ hoursDisplay }}</TextView
+						<Column
+							custom-class="rounded-box"
+							align-items="center"
+							justify-content="center"
+							height="65px"
+							width="65px"
 						>
-						<TextView
-							custom-class="font-14"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>Jam</TextView
-						>
+							<TextView
+								custom-class="font-18"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>{{ hoursDisplay }}</TextView
+							>
+							<TextView
+								custom-class="font-14"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>Jam</TextView
+							>
+						</Column>
 					</Column>
 					<Column
 						col="3"
 						align-items="center"
 						justify-content="center"
-						custom-class="px-5 rounded-box"
-						height="72px"
-						width="72px"
+						custom-class="px-5"
 					>
-						<TextView
-							custom-class="font-18"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>{{ minutesDisplay }}</TextView
+						<Column
+							custom-class="rounded-box"
+							align-items="center"
+							justify-content="center"
+							height="65px"
+							width="65px"
 						>
-						<TextView
-							custom-class="font-14"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>Menit</TextView
-						></Column
-					>
+							<TextView
+								custom-class="font-18"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>{{ minutesDisplay }}</TextView
+							>
+							<TextView
+								custom-class="font-14"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>Menit</TextView
+							>
+						</Column>
+					</Column>
 					<Column
 						col="3"
 						align-items="center"
 						justify-content="center"
-						custom-class="px-5 rounded-box"
-						height="72px"
-						width="72px"
+						custom-class="px-5"
 					>
-						<TextView
-							custom-class="font-18"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>{{ secondsDisplay }}</TextView
+						<Column
+							custom-class="rounded-box"
+							align-items="center"
+							justify-content="center"
+							height="65px"
+							width="65px"
 						>
-						<TextView
-							custom-class="font-14"
-							font-color="goldenDream"
-							text-alignment="center"
-							font-weight="bold"
-							>Detik</TextView
-						></Column
-					>
+							<TextView
+								custom-class="font-18"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>{{ secondsDisplay }}</TextView
+							>
+							<TextView
+								custom-class="font-14"
+								font-color="goldenDream"
+								text-alignment="center"
+								font-weight="bold"
+								>Detik</TextView
+							>
+						</Column>
+					</Column>
 				</Row>
 			</CustomTransition>
 		</Column>

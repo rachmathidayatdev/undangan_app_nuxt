@@ -54,17 +54,20 @@
 					align-items="center"
 					justify-content="center"
 				>
-					<Column
-						col="4"
-						custom-class="rounded-box"
-						height="100px"
-						width="100px"
-					>
-						<img
-							:src="images.cpw"
-							class="border-radius-50"
-							style="height: 96px; width: 100px"
-						/>
+					<Column col="4" align-items="center" justify-content="center">
+						<Column
+							custom-class="rounded-box"
+							align-items="center"
+							justify-content="center"
+							height="100px"
+							width="100px"
+						>
+							<img
+								:src="images.cpw"
+								class="border-radius-50"
+								style="height: 100px; width: 100px"
+							/>
+						</Column>
 					</Column>
 					<Column col="8" align-items="center">
 						<TextView
@@ -138,17 +141,20 @@
 							>Ibu Arni</TextView
 						>
 					</Column>
-					<Column
-						col="4"
-						custom-class="rounded-box"
-						height="100px"
-						width="100px"
-					>
-						<img
-							:src="images.cpp"
-							class="border-radius-50"
-							style="height: 96px; width: 100px"
-						/>
+					<Column col="4" align-items="center" justify-content="center">
+						<Column
+							custom-class="rounded-box"
+							align-items="center"
+							justify-content="center"
+							height="100px"
+							width="100px"
+						>
+							<img
+								:src="images.cpp"
+								class="border-radius-50"
+								style="height: 100px; width: 100px"
+							/>
+						</Column>
 					</Column>
 				</Row>
 			</CustomTransition>
