@@ -12,6 +12,7 @@
 					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="400"
+					font-family="Niconne"
 					>Penutup</TextView
 				>
 			</CustomTransition>
@@ -21,6 +22,7 @@
 					custom-class="font-14"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Merupakan suatu kehormatan dan kebahagiaan bagi kami</TextView
 				>
 			</CustomTransition>
@@ -30,6 +32,7 @@
 					custom-class="font-14"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>apabila Bapak/Ibu/Saudara/i berkenan hadir untuk</TextView
 				>
 			</CustomTransition>
@@ -39,6 +42,7 @@
 					custom-class="font-14"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>memberikan doa restu kepada kedua mempelai.</TextView
 				>
 			</CustomTransition>
@@ -48,6 +52,7 @@
 					custom-class="font-14 mt-10"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>"Dan Kami menciptakan kamu berpasang-pasangan."</TextView
 				>
 			</CustomTransition>
@@ -57,6 +62,7 @@
 					custom-class="font-14"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>(QS. An Nabaa : 78)</TextView
 				>
 			</CustomTransition>
@@ -66,6 +72,7 @@
 					custom-class="font-14 mt-10"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Wasalamu'alaikum Warahmatullahi Wabarakatuh</TextView
 				>
 			</CustomTransition>
@@ -75,6 +82,7 @@
 					custom-class="font-14 mt-10"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Turut berbahagia,</TextView
 				>
 			</CustomTransition>
@@ -84,16 +92,18 @@
 					custom-class="font-14"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Segenap keluarga besar</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-bottom-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-38 item-title mt-10"
+					custom-class="font-38 mt-10"
 					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="400"
+					font-family="Niconne"
 					>Radita & Rachmat</TextView
 				>
 			</CustomTransition>

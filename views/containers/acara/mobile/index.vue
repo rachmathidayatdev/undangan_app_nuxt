@@ -28,12 +28,14 @@
 							font-color="goldenDream"
 							text-alignment="right"
 							font-weight="bold"
+							font-family="PoppinsRegular"
 							>Sabtu</TextView
 						>
 						<TextView
 							custom-class="font-14 mr-5"
 							font-color="goldenDream"
 							text-alignment="right"
+							font-family="PoppinsRegular"
 							>{{ jamAkad }} WIB</TextView
 						>
 					</Column>
@@ -53,9 +55,13 @@
 							custom-class="font-16 ml-5"
 							font-color="goldenDream"
 							font-weight="bold"
+							font-family="PoppinsRegular"
 							>Mei</TextView
 						>
-						<TextView custom-class="font-14 ml-5" font-color="goldenDream"
+						<TextView
+							custom-class="font-14 ml-5"
+							font-color="goldenDream"
+							font-family="PoppinsRegular"
 							>2021</TextView
 						>
 					</Column>
@@ -67,6 +73,7 @@
 					custom-class="font-14 my-10"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Aula Muzdalifah, Islamic Center Bekasi</TextView
 				>
 			</CustomTransition>
@@ -87,12 +94,14 @@
 							font-color="goldenDream"
 							text-alignment="right"
 							font-weight="bold"
+							font-family="PoppinsRegular"
 							>Sabtu</TextView
 						>
 						<TextView
 							custom-class="font-14 mr-5"
 							font-color="goldenDream"
 							text-alignment="right"
+							font-family="PoppinsRegular"
 							>{{ jamResepsi }} WIB</TextView
 						>
 					</Column>
@@ -112,9 +121,13 @@
 							custom-class="font-16 ml-5"
 							font-color="goldenDream"
 							font-weight="bold"
+							font-family="PoppinsRegular"
 							>Mei</TextView
 						>
-						<TextView custom-class="font-14 ml-5" font-color="goldenDream"
+						<TextView
+							custom-class="font-14 ml-5"
+							font-color="goldenDream"
+							font-family="PoppinsRegular"
 							>2021</TextView
 						>
 					</Column>
@@ -126,6 +139,7 @@
 					custom-class="font-14 my-10"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Aula Muzdalifah, Islamic Center Bekasi</TextView
 				>
 			</CustomTransition>
@@ -135,6 +149,7 @@
 					custom-class="font-14 mb-10"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Hitungan Mundur Acara Resepsi</TextView
 				>
 			</CustomTransition>

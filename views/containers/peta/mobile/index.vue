@@ -8,10 +8,11 @@
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-38 item-title mb-10"
+					custom-class="font-38 mb-10"
 					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="400"
+					font-family="Niconne"
 					>Peta Lokasi</TextView
 				>
 			</CustomTransition>
@@ -21,6 +22,7 @@
 					custom-class="font-14"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Jalan Kemakmuran No.72, Marga Jaya, Bekasi Selatan, RT.005/RW.002,
 					Marga Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17141,
 					Indonesia</TextView

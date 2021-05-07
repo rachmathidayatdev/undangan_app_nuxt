@@ -1,5 +1,5 @@
 <template>
-	<div :id="id" :class="classes">
+	<div :id="id" :class="classes" :style="styleCustom">
 		<slot />
 	</div>
 </template>
@@ -12,6 +12,7 @@ export default {
 		fontColor: { type: String, default: 'black' },
 		fontWeight: { type: String, default: 'normal' },
 		textAlignment: { type: String, default: 'left' },
+		fontFamily: { type: String, default: 'BerkshireSwash' },
 	},
 	computed: {
 		classes() {
@@ -35,6 +36,13 @@ export default {
 			}
 
 			return (classes.length && classes.join(' ')) || null
+		},
+		styleCustom() {
+			const { fontFamily } = this
+
+			return {
+				'--font-family': fontFamily,
+			}
 		},
 	},
 }
@@ -60,5 +68,7 @@ export default {
 			text-align: #{$i};
 		}
 	}
+
+	font-family: var(--font-family);
 }
 </style>

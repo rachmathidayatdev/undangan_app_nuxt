@@ -24,6 +24,12 @@ body {
    url(~assets/fonts/Niconne-Regular.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"),
+   url(~assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
 // .slide-left-leave-active,
 .slide-left-enter-active {
   transition: .2s;

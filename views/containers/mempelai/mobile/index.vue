@@ -1,5 +1,5 @@
 <template>
-	<div class="acara">
+	<div class="mempelai">
 		<Column custom-class="container px-40" justify-content="center">
 			<CustomTransition name="slide-top-custom">
 				<Row
@@ -17,33 +17,37 @@
 					custom-class="font-14"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Assalamu'alaikum warahmatullahi wabarakatuh</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-14"
+					custom-class="font-12"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Dengan memohon rahmat dan ridho Allah SWT,</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-14"
+					custom-class="font-12"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>Mohon do'a restu Bapak/Ibu/Saudara/i dalam rangka</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-14"
+					custom-class="font-12"
 					font-color="goldenDream"
 					text-alignment="center"
+					font-family="PoppinsRegular"
 					>melangsungkan pernikahan putra-putri kami:</TextView
 				>
 			</CustomTransition>
@@ -75,18 +79,21 @@
 							custom-class="font-14"
 							font-color="goldenDream"
 							text-alignment="center"
+							font-family="PoppinsRegular"
 							>Putri Pertama</TextView
 						>
 						<TextView
 							custom-class="font-14"
 							font-color="goldenDream"
 							text-alignment="center"
+							font-family="PoppinsRegular"
 							>Bapak Yuda Trihatna</TextView
 						>
 						<TextView
 							custom-class="font-14"
 							font-color="goldenDream"
 							text-alignment="center"
+							font-family="PoppinsRegular"
 							>Ibu Endang</TextView
 						>
 					</Column>
@@ -120,18 +127,21 @@
 							custom-class="font-14"
 							font-color="goldenDream"
 							text-alignment="center"
+							font-family="PoppinsRegular"
 							>Putra Pertama</TextView
 						>
 						<TextView
 							custom-class="font-14"
 							font-color="goldenDream"
 							text-alignment="center"
+							font-family="PoppinsRegular"
 							>Bapak Ismail Aminah</TextView
 						>
 						<TextView
 							custom-class="font-14"
 							font-color="goldenDream"
 							text-alignment="center"
+							font-family="PoppinsRegular"
 							>Ibu Arni</TextView
 						>
 					</Column>

@@ -10,5 +10,6 @@ export default {
 	RUSTIC_HEADER_2: `${path}/rustic-header-2.png`,
 	RUSTIC_THEME: `${path}/rustic-theme.png`,
 	RUSTIC_THEME_2: `${path}/rustic-theme-2.png`,
-	RUSTIC_THEME_3: `${path}/rustic-theme-3.png`,
+	RUSTIC_THEME_3: `${path}/background-undangan-app.png`,
+	BACKGROUND_UNDANGAN: `${path}/background-undangan-app.png`,
 }
