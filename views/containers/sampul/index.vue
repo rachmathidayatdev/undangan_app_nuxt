@@ -3,8 +3,6 @@
 		<div v-if="isMobile">
 			<!-- body -->
 			<ViewMobile />
-			<!-- bottom navbar -->
-			<MobileBottomNavbar />
 		</div>
 		<ViewDesktop v-else />
 	</div>
@@ -17,8 +15,6 @@ export default {
 	components: {
 		ViewDesktop: () => import('./desktop'),
 		ViewMobile: () => import('./mobile'),
-		MobileBottomNavbar: () =>
-			import('~/views/components/Mobile/MobileBottomNavbar'),
 	},
 	computed: {
 		...mapState({

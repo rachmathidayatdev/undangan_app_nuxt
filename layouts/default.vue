@@ -1,9 +1,30 @@
 <template>
 	<div>
 		<Nuxt />
+		<MobileBottomNavbar v-if="isMobile && $route.path !== routeIndex" />
 	</div>
 </template>
+<script>
+import { mapState } from 'vuex'
+import ROUTES from '~/constants/routes'
 
+export default {
+	components: {
+		MobileBottomNavbar: () =>
+			import('~/views/components/Mobile/MobileBottomNavbar'),
+	},
+	data() {
+		return {
+			routeIndex: ROUTES.INDEX.url,
+		}
+	},
+	computed: {
+		...mapState({
+			isMobile: (state) => state.general.device.isMobile,
+		}),
+	},
+}
+</script>
 <style>
 html {
 	font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

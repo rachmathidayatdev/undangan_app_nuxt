@@ -35,8 +35,11 @@ export default {
 		TextView: () => import('~/views/ui/TextView'),
 	},
 	data() {
-		return {
-			menu: [
+		return {}
+	},
+	computed: {
+		menu() {
+			return [
 				{
 					icon:
 						this.$route.path === ROUTES.SAMPUL.url
@@ -115,8 +118,8 @@ export default {
 						this.$route.query.sesi || '1'
 					}`,
 				},
-			],
-		}
+			]
+		},
 	},
 	methods: {
 		onTabChange(payload) {
