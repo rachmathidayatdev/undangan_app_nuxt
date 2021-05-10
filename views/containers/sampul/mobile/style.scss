@@ -1,7 +1,9 @@
 @import '~/assets/scss/global';
 
 .sampul {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('/images/gallery-1-bw.jpg');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

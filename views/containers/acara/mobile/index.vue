@@ -1,6 +1,10 @@
 <template>
 	<div class="acara">
-		<Column custom-class="container py-20 px-40" justify-content="center">
+		<Column
+			custom-class="container py-20 px-40"
+			justify-content="center"
+			align-items="center"
+		>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"

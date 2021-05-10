@@ -1,6 +1,10 @@
 <template>
 	<div class="protokol">
-		<Column custom-class="container py-20 px-40" justify-content="center">
+		<Column
+			custom-class="container py-20 px-40"
+			justify-content="center"
+			align-items="center"
+		>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
@@ -17,16 +21,8 @@
 					custom-class="font-12"
 					text-alignment="center"
 					font-family="PoppinsRegular"
-					>Acara ini akan diselenggarakan dengan mematuhi</TextView
-				>
-			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
-				<TextView
-					v-if="isComponentShow"
-					custom-class="font-12"
-					text-alignment="center"
-					font-family="PoppinsRegular"
-					>protokol pencegahan penyebaran COVID-19.</TextView
+					>Acara ini akan diselenggarakan dengan mematuhi protokol pencegahan
+					penyebaran COVID-19.</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-right-custom">

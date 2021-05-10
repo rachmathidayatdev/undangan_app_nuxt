@@ -1,7 +1,9 @@
 @import '~/assets/scss/global';
 
 .peta {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('/images/background-undangan-app.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

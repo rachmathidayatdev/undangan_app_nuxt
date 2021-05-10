@@ -1,7 +1,9 @@
 @import '~/assets/scss/global';
 
 .home {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #2a5341;
   background-image: url('/images/rustic-theme-3.png');
   background-position: center; /* Center the image */

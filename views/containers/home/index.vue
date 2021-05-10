@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<ViewMobile v-if="isMobile" />
-		<ViewDesktop v-else />
+		<ViewMobile />
+		<!-- <ViewDesktop v-else /> -->
 	</div>
 </template>
 
@@ -10,7 +10,7 @@ import { mapState } from 'vuex'
 
 export default {
 	components: {
-		ViewDesktop: () => import('./desktop'),
+		// ViewDesktop: () => import('./desktop'),
 		ViewMobile: () => import('./mobile'),
 	},
 	computed: {

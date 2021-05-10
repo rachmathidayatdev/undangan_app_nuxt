@@ -1,6 +1,10 @@
 <template>
 	<div class="penutup">
-		<Column custom-class="container py-20 px-40" justify-content="center">
+		<Column
+			custom-class="container py-20 px-40"
+			justify-content="center"
+			align-items="center"
+		>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
@@ -70,7 +74,7 @@
 			<CustomTransition name="slide-bottom-custom">
 				<TextView
 					v-if="isComponentShow"
-					custom-class="font-38 mt-10"
+					custom-class="font-32 mt-10"
 					text-alignment="center"
 					font-weight="400"
 					font-family="Niconne"
