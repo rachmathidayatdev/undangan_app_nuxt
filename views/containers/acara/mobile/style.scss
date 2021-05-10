@@ -15,7 +15,7 @@
 
     .line-center {
       text-align: center; 
-      border-bottom: 1px solid map-get($colors, black); 
+      border-bottom: 1px solid map-get($colors, scorpion); 
       line-height: 0.1em;
       margin: 10px 0 20px;
 
@@ -30,7 +30,7 @@
     }
 
     .rounded-box {
-      border: 2px solid map-get($colors, black);
+      border: 2px solid map-get($colors, scorpion);
       @extend .border-radius-100;
     }
   }

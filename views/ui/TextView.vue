@@ -9,7 +9,7 @@ export default {
 	props: {
 		id: { type: String, default: null },
 		customClass: { type: String, default: null },
-		fontColor: { type: String, default: 'black' },
+		fontColor: { type: String, default: 'scorpion' },
 		fontWeight: { type: String, default: 'normal' },
 		textAlignment: { type: String, default: 'left' },
 		fontFamily: { type: String, default: 'BerkshireSwash' },

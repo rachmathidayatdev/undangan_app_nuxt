@@ -26,7 +26,7 @@
     }
 
     .rounded-box {
-      border: 2px solid map-get($colors, black);
+      border: 2px solid map-get($colors, scorpion);
       @extend .border-radius-50;
     }
 
