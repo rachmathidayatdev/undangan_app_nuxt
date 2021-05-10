@@ -2,15 +2,15 @@
 
 .peta {
   display: block;
-  background-color: #2a5341;
   background-image: url('/images/background-undangan-app.png');
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   // background-size: cover; /* Resize the background image to cover the entire container */
   background-size: 100% 100%;
-  height: calc(100vh);
+  height: calc(100vh - 57px);
 
   .container {
-    height: calc(100vh);
+    height: calc(100vh - 57px);
+    overflow: auto;
   }
 }

@@ -1,11 +1,10 @@
 <template>
-	<div class="peta">
-		<Column custom-class="container px-40" justify-content="center">
+	<div class="protokol">
+		<Column custom-class="container py-20 px-40" justify-content="center">
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-38 mb-10"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="400"
 					font-family="Niconne"
@@ -16,7 +15,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-12"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>Acara ini akan diselenggarakan dengan mematuhi</TextView
@@ -26,7 +24,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-12"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>protokol pencegahan penyebaran COVID-19.</TextView
@@ -38,10 +35,7 @@
 						<img :src="icons.mask" height="50" width="50" />
 					</Column>
 					<Column col="10">
-						<TextView
-							custom-class="font-14"
-							font-color="goldenDream"
-							font-family="PoppinsRegular"
+						<TextView custom-class="font-14" font-family="PoppinsRegular"
 							>Tamu undangan menggunakan masker.</TextView
 						>
 					</Column>
@@ -57,7 +51,6 @@
 					<Column col="10">
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="right"
 							font-family="PoppinsRegular"
 							>Suhu Tubuh normal (dibahwah 37,5C)</TextView
@@ -74,10 +67,7 @@
 						<img :src="icons.distance" height="50" width="50" />
 					</Column>
 					<Column col="10">
-						<TextView
-							custom-class="font-14"
-							font-color="goldenDream"
-							font-family="PoppinsRegular"
+						<TextView custom-class="font-14" font-family="PoppinsRegular"
 							>Jaga jarak antar orang sekitar 2 meter.</TextView
 						>
 					</Column>
@@ -93,7 +83,6 @@
 					<Column col="10">
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="right"
 							font-family="PoppinsRegular"
 							>Cuci tangan menggunakan air dan sabun atau menggunakan hand
@@ -109,7 +98,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-12 mt-20"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>Bagi para tamu undangan diharapkan mengikuti</TextView
@@ -119,7 +107,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-12"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>protokol pencegahan COVID-19</TextView

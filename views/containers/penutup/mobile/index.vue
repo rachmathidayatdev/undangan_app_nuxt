@@ -1,15 +1,10 @@
 <template>
 	<div class="penutup">
-		<Column
-			custom-class="container px-20"
-			align-items="center"
-			justify-content="center"
-		>
+		<Column custom-class="container py-20 px-40" justify-content="center">
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-38 item-title mb-10"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="400"
 					font-family="Niconne"
@@ -20,37 +15,17 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
-					>Merupakan suatu kehormatan dan kebahagiaan bagi kami</TextView
-				>
-			</CustomTransition>
-			<CustomTransition name="bounce-custom">
-				<TextView
-					v-if="isComponentShow"
-					custom-class="font-14"
-					font-color="goldenDream"
-					text-alignment="center"
-					font-family="PoppinsRegular"
-					>apabila Bapak/Ibu/Saudara/i berkenan hadir untuk</TextView
-				>
-			</CustomTransition>
-			<CustomTransition name="bounce-custom">
-				<TextView
-					v-if="isComponentShow"
-					custom-class="font-14"
-					font-color="goldenDream"
-					text-alignment="center"
-					font-family="PoppinsRegular"
-					>memberikan doa restu kepada kedua mempelai.</TextView
+					>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+					Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada
+					kedua mempelai.</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="bounce-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14 mt-10"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>"Dan Kami menciptakan kamu berpasang-pasangan."</TextView
@@ -60,7 +35,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>(QS. An Nabaa : 78)</TextView
@@ -70,7 +44,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14 mt-10"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>Wasalamu'alaikum Warahmatullahi Wabarakatuh</TextView
@@ -80,7 +53,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14 mt-10"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>Turut berbahagia,</TextView
@@ -90,7 +62,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>Segenap keluarga besar</TextView
@@ -100,7 +71,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-38 mt-10"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="400"
 					font-family="Niconne"

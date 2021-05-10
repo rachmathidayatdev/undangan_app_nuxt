@@ -32,7 +32,7 @@ export default {
 	methods: {
 		goToMain() {
 			this.$router.push(
-				`${ROUTES.SAMPUL.url}?guestName=${this.guestName}&guestLocation=${this.guestLocation}`,
+				`${ROUTES.MEMPELAI.url}?guestName=${this.guestName}&guestLocation=${this.guestLocation}`,
 			)
 		},
 	},

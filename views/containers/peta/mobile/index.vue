@@ -1,15 +1,10 @@
 <template>
 	<div class="peta">
-		<Column
-			custom-class="container px-20"
-			align-items="center"
-			justify-content="center"
-		>
+		<Column custom-class="container py-20 px-40" justify-content="center">
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-38 mb-10"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-weight="400"
 					font-family="Niconne"
@@ -20,7 +15,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>Jalan Kemakmuran No.72, Marga Jaya, Bekasi Selatan, RT.005/RW.002,

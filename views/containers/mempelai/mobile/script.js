@@ -14,10 +14,10 @@ export default {
 			images: {
 				cpp: IMAGES.CPP,
 				cpw: IMAGES.CPW,
-				divider: IMAGES.DIVIDER,
+				dividerBlack: IMAGES.DIVIDER_BLACK,
 			},
 			icons: {
-				bismillah: ICONS.BISMILLAH_ICON,
+				bismillahBlack: ICONS.BISMILLAH_BLACK_ICON,
 				mask: ICONS.MASK_ICON,
 			},
 			isComponentShow: false,

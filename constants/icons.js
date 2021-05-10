@@ -4,6 +4,7 @@ export default {
 	ACARA_ICON: `${path}/acara-icon.png`,
 	ACARA_ACTIVE_ICON: `${path}/acara-active-icon.png`,
 	BISMILLAH_ICON: `${path}/bismillah-icon.png`,
+	BISMILLAH_BLACK_ICON: `${path}/bismillah-black-icon.png`,
 	DISTANCE_ICON: `${path}/distance-icon.png`,
 	GALERI_ICON: `${path}/galeri-icon.png`,
 	GALERI_ACTIVE_ICON: `${path}/galeri-active-icon.png`,

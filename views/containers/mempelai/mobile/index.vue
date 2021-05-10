@@ -1,6 +1,6 @@
 <template>
 	<div class="mempelai">
-		<Column custom-class="container px-40" justify-content="center">
+		<Column custom-class="container py-20 px-40" justify-content="center">
 			<CustomTransition name="slide-top-custom">
 				<Row
 					v-if="isComponentShow"
@@ -8,14 +8,13 @@
 					justify-content="center"
 					custom-class="mb-10"
 				>
-					<img :src="icons.bismillah" width="200" />
+					<img :src="icons.bismillahBlack" style="height: 50px" />
 				</Row>
 			</CustomTransition>
 			<CustomTransition name="slide-top-custom">
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-14"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
 					>Assalamu'alaikum warahmatullahi wabarakatuh</TextView
@@ -25,30 +24,11 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-12"
-					font-color="goldenDream"
 					text-alignment="center"
 					font-family="PoppinsRegular"
-					>Dengan memohon rahmat dan ridho Allah SWT,</TextView
-				>
-			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
-				<TextView
-					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="goldenDream"
-					text-alignment="center"
-					font-family="PoppinsRegular"
-					>Mohon do'a restu Bapak/Ibu/Saudara/i dalam rangka</TextView
-				>
-			</CustomTransition>
-			<CustomTransition name="slide-top-custom">
-				<TextView
-					v-if="isComponentShow"
-					custom-class="font-12"
-					font-color="goldenDream"
-					text-alignment="center"
-					font-family="PoppinsRegular"
-					>melangsungkan pernikahan putra-putri kami:</TextView
+					>Dengan memohon rahmat dan ridho Allah SWT, Mohon do'a restu
+					Bapak/Ibu/Saudara/i dalam rangka melangsungkan pernikahan putra-putri
+					kami:</TextView
 				>
 			</CustomTransition>
 			<CustomTransition name="slide-left-custom">
@@ -68,33 +48,27 @@
 						</div>
 					</Column>
 					<Column col="8" align-items="center">
-						<TextView
-							custom-class="font-22"
-							font-color="goldenDream"
-							text-alignment="center"
+						<TextView custom-class="font-22" text-alignment="center"
 							>Radita Cahyani</TextView
 						>
-						<img :src="images.divider" />
+						<img :src="images.dividerBlack" />
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="center"
 							font-family="PoppinsRegular"
 							>Putri Pertama</TextView
 						>
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="center"
 							font-family="PoppinsRegular"
 							>Bapak Yuda Trihatna</TextView
 						>
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="center"
 							font-family="PoppinsRegular"
-							>Ibu Endang</TextView
+							>Ibu Endang Murtiningsih</TextView
 						>
 					</Column>
 				</Row>
@@ -103,7 +77,6 @@
 				<TextView
 					v-if="isComponentShow"
 					custom-class="font-38"
-					font-color="goldenDream"
 					text-alignment="center"
 					>&</TextView
 				>
@@ -116,33 +89,27 @@
 					justify-content="center"
 				>
 					<Column col="8" align-items="center">
-						<TextView
-							custom-class="font-22"
-							font-color="goldenDream"
-							text-alignment="center"
+						<TextView custom-class="font-22" text-alignment="center"
 							>Rachmat Hidayat</TextView
 						>
-						<img :src="images.divider" />
+						<img :src="images.dividerBlack" />
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="center"
 							font-family="PoppinsRegular"
 							>Putra Pertama</TextView
 						>
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="center"
 							font-family="PoppinsRegular"
 							>Bapak Ismail Aminah</TextView
 						>
 						<TextView
 							custom-class="font-14"
-							font-color="goldenDream"
 							text-alignment="center"
 							font-family="PoppinsRegular"
-							>Ibu Arni</TextView
+							>Ibu Siti Arni H. Ajrun</TextView
 						>
 					</Column>
 					<Column col="4" align-items="center" justify-content="center">
