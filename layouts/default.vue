@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<Nuxt />
-		<MobileBottomNavbar v-if="isMobile && $route.path !== routeIndex" />
+		<MobileBottomNavbar v-if="$route.path !== routeIndex" />
 	</div>
 </template>
 <script>
