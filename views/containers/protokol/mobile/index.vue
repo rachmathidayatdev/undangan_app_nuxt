@@ -100,16 +100,8 @@
 					custom-class="font-12 mt-20"
 					text-alignment="center"
 					font-family="PoppinsRegular"
-					>Bagi para tamu undangan diharapkan mengikuti</TextView
-				>
-			</CustomTransition>
-			<CustomTransition name="slide-bottom-custom">
-				<TextView
-					v-if="isComponentShow"
-					custom-class="font-12"
-					text-alignment="center"
-					font-family="PoppinsRegular"
-					>protokol pencegahan COVID-19</TextView
+					>Bagi para tamu undangan diharapkan mengikuti protokol pencegahan
+					COVID-19</TextView
 				>
 			</CustomTransition>
 		</Column>
