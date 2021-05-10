@@ -48,7 +48,7 @@
 						</div>
 					</Column>
 					<Column col="8" align-items="center">
-						<TextView custom-class="font-22" text-alignment="center"
+						<TextView custom-class="font-20" text-alignment="center"
 							>Radita Cahyani</TextView
 						>
 						<img :src="images.dividerBlack" />
@@ -89,7 +89,7 @@
 					justify-content="center"
 				>
 					<Column col="8" align-items="center">
-						<TextView custom-class="font-22" text-alignment="center"
+						<TextView custom-class="font-20" text-alignment="center"
 							>Rachmat Hidayat</TextView
 						>
 						<img :src="images.dividerBlack" />
