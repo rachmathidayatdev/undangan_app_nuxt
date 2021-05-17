@@ -56,8 +56,13 @@
 					>
 				</CustomTransition>
 				<CustomTransition name="bounce-custom">
-					<Row v-if="isComponentShow" custom-class="mt-5">
-						<img :src="images.divider" width="180" />
+					<Row
+						v-if="isComponentShow"
+						custom-class="mt-5"
+						justify-content="center"
+						align-items="center"
+					>
+						<img :src="images.dividerGold" style="width: 50%" />
 					</Row>
 				</CustomTransition>
 				<CustomTransition duration="2.5s">

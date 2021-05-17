@@ -26,6 +26,18 @@ export default {
 			isMobile: (state) => state.general.device.isMobile,
 		}),
 	},
+	head() {
+		return {
+			title: 'Invitation Radita & Rachmat',
+			meta: [
+				{
+					hid: 'description',
+					name: 'description',
+					content: 'Invitation Radita & Rachmat',
+				},
+			],
+		}
+	},
 }
 </script>
 <style>

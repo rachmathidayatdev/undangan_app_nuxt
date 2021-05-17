@@ -12,6 +12,7 @@ export default {
 		return {
 			images: {
 				divider: IMAGES.DIVIDER,
+				dividerGold: IMAGES.DIVIDER_GOLD,
 			},
 			isComponentShow: false,
 		}
