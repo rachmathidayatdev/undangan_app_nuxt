@@ -1,7 +1,9 @@
 <template>
 	<div>
 		<Nuxt />
-		<MobileBottomNavbar v-if="$route.path !== routeIndex" />
+		<MobileBottomNavbar
+			v-if="$route.path !== routeIndex && $route.path !== routeGenerate"
+		/>
 	</div>
 </template>
 <script>
@@ -16,6 +18,7 @@ export default {
 	data() {
 		return {
 			routeIndex: ROUTES.INDEX.url,
+			routeGenerate: ROUTES.GENERATE.url,
 		}
 	},
 	computed: {

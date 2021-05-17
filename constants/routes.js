@@ -40,6 +40,12 @@ const MEMPELAI = {
 	url: '/mempelai',
 }
 
+const GENERATE = {
+	href: '/generate.vue',
+	route: '/generate',
+	url: '/generate',
+}
+
 module.exports = {
 	INDEX,
 	SAMPUL,
@@ -48,4 +54,5 @@ module.exports = {
 	PROTOKOL,
 	ACARA,
 	MEMPELAI,
+	GENERATE,
 }
