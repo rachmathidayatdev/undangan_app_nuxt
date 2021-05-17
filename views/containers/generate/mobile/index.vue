@@ -38,6 +38,11 @@
 			<button type="button" class="btn-undangan mt-20" @click="onGenerateData">
 				Copy
 			</button>
+			<textarea
+				id="dataUndangan"
+				v-model="undanganMessage"
+				style="position: absolute; top: -1000px"
+			></textarea>
 		</Column>
 	</div>
 </template>
