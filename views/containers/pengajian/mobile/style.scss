@@ -1,0 +1,40 @@
+@import '~/assets/scss/global';
+
+.mempelai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/background-undangan-app.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  // background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: 100% 100%;
+  height: calc(100vh);
+
+  .container {
+    height: calc(100vh);
+    overflow: auto;
+
+    .line-center {
+      text-align: center; 
+      border-bottom: 1px solid map-get($colors, goldenDream); 
+      line-height: 0.1em;
+      margin: 10px 0 20px;
+
+      .line-text-center {
+        background-color: #2a5341;
+        @extend .px-10;
+      }
+    }
+
+    .rounded-box {
+      border: 2px solid map-get($colors, scorpion);
+      @extend .border-radius-50;
+    }
+
+    .custom-img {
+      height: 105px;
+      background-size: cover;
+    }
+  }
+}

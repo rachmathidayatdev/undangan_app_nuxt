@@ -1,9 +1,7 @@
 <template>
 	<div>
 		<Nuxt />
-		<MobileBottomNavbar
-			v-if="$route.path !== routeIndex && $route.path !== routeGenerate"
-		/>
+		<MobileBottomNavbar v-if="!notAllowBottomNavBar" />
 	</div>
 </template>
 <script>
@@ -16,15 +14,19 @@ export default {
 			import('~/views/components/Mobile/MobileBottomNavbar'),
 	},
 	data() {
-		return {
-			routeIndex: ROUTES.INDEX.url,
-			routeGenerate: ROUTES.GENERATE.url,
-		}
+		return {}
 	},
 	computed: {
 		...mapState({
 			isMobile: (state) => state.general.device.isMobile,
 		}),
+		notAllowBottomNavBar() {
+			return [
+				ROUTES.INDEX.url,
+				ROUTES.GENERATE.url,
+				ROUTES.PENGAJIAN.url,
+			].includes(this.$route.path)
+		},
 	},
 	head() {
 		return {

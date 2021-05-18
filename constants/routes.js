@@ -46,6 +46,12 @@ const GENERATE = {
 	url: '/generate',
 }
 
+const PENGAJIAN = {
+	href: '/pengajian.vue',
+	route: '/pengajian',
+	url: '/pengajian',
+}
+
 module.exports = {
 	INDEX,
 	SAMPUL,
@@ -55,4 +61,5 @@ module.exports = {
 	ACARA,
 	MEMPELAI,
 	GENERATE,
+	PENGAJIAN,
 }

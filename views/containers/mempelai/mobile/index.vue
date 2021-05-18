@@ -53,7 +53,7 @@
 					</Column>
 					<Column col="8" align-items="center">
 						<TextView custom-class="font-20" text-alignment="center"
-							>Radita Cahyani</TextView
+							>Radita Cahyani S.Kom.</TextView
 						>
 						<img :src="images.dividerBlack" />
 						<TextView
@@ -94,7 +94,7 @@
 				>
 					<Column col="8" align-items="center">
 						<TextView custom-class="font-20" text-alignment="center"
-							>Rachmat Hidayat</TextView
+							>Rachmat Hidayat S.T.</TextView
 						>
 						<img :src="images.dividerBlack" />
 						<TextView

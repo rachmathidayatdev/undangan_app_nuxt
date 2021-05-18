@@ -43,7 +43,7 @@
 						custom-class="font-16"
 						font-color="goldenDream"
 						font-weight="bold"
-						>Kepada Yth,</TextView
+						>Kepada Yth Bapak/Ibu/Saudara/i,</TextView
 					>
 				</CustomTransition>
 				<CustomTransition duration="1.5s">
@@ -71,7 +71,7 @@
 						custom-class="font-14 mt-5"
 						font-color="goldenDream"
 						font-weight="bold"
-						>( {{ guestLocation }} )</TextView
+						>{{ guestLocation }}</TextView
 					>
 				</CustomTransition>
 				<CustomTransition name="bounce-custom">

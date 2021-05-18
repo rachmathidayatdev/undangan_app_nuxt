@@ -24,6 +24,9 @@ export default {
 		guestLocation() {
 			return this.$route.query.guestLocation || ''
 		},
+		sesi() {
+			return this.$route.query.sesi || 1
+		},
 	},
 	mounted() {
 		setTimeout(() => {
@@ -33,7 +36,7 @@ export default {
 	methods: {
 		goToMain() {
 			this.$router.push(
-				`${ROUTES.MEMPELAI.url}?guestName=${this.guestName}&guestLocation=${this.guestLocation}`,
+				`${ROUTES.MEMPELAI.url}?guestName=${this.guestName}&guestLocation=${this.guestLocation}&sesi=${this.sesi}`,
 			)
 		},
 	},
