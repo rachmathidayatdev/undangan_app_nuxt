@@ -1,5 +1,5 @@
 <template>
-	<div class="mempelai">
+	<div class="pengajian">
 		<Column
 			custom-class="container py-20 px-40"
 			justify-content="center"
@@ -149,6 +149,6 @@
 <script src="./script.js" />
 
 <!-- Styles -->
-<style lang="scss">
+<style lang="scss" scoped>
 @import './style';
 </style>

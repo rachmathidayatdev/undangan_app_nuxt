@@ -40,6 +40,6 @@
 <script src="./script.js" />
 
 <!-- Styles -->
-<style lang="scss">
+<style lang="scss" scoped>
 @import './style';
 </style>
