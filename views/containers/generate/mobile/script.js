@@ -4,16 +4,17 @@ export default {
 		Column: () => import('~/views/ui/Column'),
 		TextView: () => import('~/views/ui/TextView'),
 		TextInput: () => import('~/views/ui/TextInput'),
+		Alert: () => import('~/views/ui/Alert'),
 		CustomTransition: () => import('~/views/ui/CustomTransition'),
 	},
 	data() {
 		return {
-			isComponentShow: false,
 			guestName: '',
 			guestLocation: 'Di%20Tempat',
 			newLineCode: '\n',
 			sesi: 2,
 			message: '',
+			isSuccessGenerateShow: false,
 		}
 	},
 	computed: {
@@ -85,6 +86,10 @@ export default {
 				const successful = document.execCommand('copy')
 				const msg = successful ? 'successful' : 'unsuccessful'
 				console.log('Copying text command was ' + msg)
+				this.isSuccessGenerateShow = true
+				setTimeout(() => {
+					this.isSuccessGenerateShow = false
+				}, 1000)
 			} catch (err) {
 				console.log('Oops, unable to copy')
 			}

@@ -1,3 +1,44 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --athens-gray: #f7f7f9;
+  --geyser: #DEE2E6;
+  --border-color: rgba(0,0,0,.2);
+  --boxShadow: rgba(0, 0, 0, 0.15);
+
+  --primary: #007bff;
+  --primary-background-color: #cce5ff;
+  --primary-border-color: #b8daff;
+
+  --secondary: #6c757d;
+  --secondary-background-color: #e2e3e5;
+  --secondary-border-color: #d6d8db;
+
+  --success: #28a745;
+  --success-background-color: #d4edda;
+  --success-border-color: #c3e6cb;
+
+  --danger: #dc3545;
+  --danger-background-color: #f8d7da;
+  --danger-border-color: #f5c6cb;
+
+  --warning: #ffc107;
+  --warning-background-color: #fff3cd;
+  --warning-border-color: #ffeeba;
+
+  --info: #17a2b8;
+  --info-background-color: #d1ecf1;
+  --info-border-color: #bee5eb;
+
+  --light: #f8f9fa;
+  --light-background-color: #d1ecf1;
+  --light-border-color: #bee5eb;
+
+  --dark: #343a40;
+  --dark-background-color: #d6d8d9;
+  --dark-border-color: #c6c8ca;
+}
+
 $colors: (
   body-bg: #F2F2F2,
   transparent: transparent,

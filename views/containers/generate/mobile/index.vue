@@ -6,38 +6,48 @@
 			align-items="normal"
 		>
 			<TextView
-				v-if="isComponentShow"
-				custom-class="font-14"
-				text-alignment="left"
+				custom-class="font-18"
+				text-alignment="center"
 				font-family="PoppinsRegular"
-				>Nama Tamu</TextView
+				>Generate Undangan</TextView
 			>
 			<TextInput
 				type="text"
 				name="guestName"
 				field="guestName"
 				place-holder="Masukkan Nama Tamu"
+				:material="true"
+				border-radius="8"
+				custom-class="mt-20"
+				input-custom-class="py-10"
 				:value="guestName"
 				@onChange="onChange"
 			/>
-			<TextView
-				v-if="isComponentShow"
-				custom-class="font-14"
-				text-alignment="left"
-				font-family="PoppinsRegular"
-				>Sesi Tamu</TextView
-			>
 			<TextInput
 				type="text"
 				name="sesi"
 				field="sesi"
 				place-holder="Masukkan Sesi Tamu"
+				:material="true"
+				border-radius="8"
+				input-custom-class="py-10"
 				:value="sesi"
 				@onChange="onChange"
 			/>
 			<button type="button" class="btn-undangan mt-20" @click="onGenerateData">
 				Copy
 			</button>
+			<CustomTransition name="slide-top-custom">
+				<Alert
+					v-if="isSuccessGenerateShow"
+					variant="warning"
+					custom-class="alert-custom"
+				>
+					<TextView font-weight="600" text-alignment="center"
+						>Success Copy</TextView
+					>
+				</Alert>
+			</CustomTransition>
 			<textarea
 				id="dataUndangan"
 				v-model="undanganMessage"
