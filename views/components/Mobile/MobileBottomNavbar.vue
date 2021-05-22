@@ -135,7 +135,7 @@ export default {
 @import '~/assets/scss/global';
 
 .bottom-navbar {
-	position: sticky;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	padding: 0.5rem 0.75rem 0.5rem 0.75rem;

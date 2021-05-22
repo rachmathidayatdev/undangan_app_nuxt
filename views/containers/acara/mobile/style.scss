@@ -10,14 +10,16 @@
   // background-size: cover; /* Resize the background image to cover the entire container */
   background-size: 100% 100%;
   height: calc(100vh - 57px);
+  max-height: calc(100vh - 57px);
 
   .container {
     height: calc(100vh - 57px);
+    max-height: calc(100vh - 57px);
     overflow: auto;
 
     .line-center {
       text-align: center; 
-      border-bottom: 1px solid map-get($colors, scorpion); 
+      border-bottom: 1px solid map-get($colors, goldenDream); 
       line-height: 0.1em;
       margin: 10px 0 20px;
 
@@ -32,7 +34,7 @@
     }
 
     .rounded-box {
-      border: 2px solid map-get($colors, scorpion);
+      border: 2px solid map-get($colors, goldenDream);
       @extend .border-radius-100;
     }
   }

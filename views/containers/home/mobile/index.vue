@@ -10,7 +10,7 @@
 				align-items="center"
 				justify-content="center"
 			>
-				<Column col="6">
+				<div style="width: 150px">
 					<TextView
 						custom-class="item-name font-38"
 						font-weight="400"
@@ -30,7 +30,7 @@
 						font-color="goldenDream"
 						>Rachmat</TextView
 					>
-				</Column>
+				</div>
 			</Column>
 			<Column
 				custom-class="body-content"

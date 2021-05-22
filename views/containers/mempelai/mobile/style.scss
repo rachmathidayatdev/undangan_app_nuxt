@@ -10,9 +10,11 @@
   // background-size: cover; /* Resize the background image to cover the entire container */
   background-size: 100% 100%;
   height: calc(100vh - 57px);
+  max-height: calc(100vh - 57px);
 
   .container {
     height: calc(100vh - 57px);
+    max-height: calc(100vh - 57px);
     overflow: auto;
 
     .line-center {

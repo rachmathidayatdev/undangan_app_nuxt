@@ -40,7 +40,7 @@
 					v-if="isComponentShow"
 					custom-class="mt-10"
 					align-items="center"
-					justify-content="center"
+					justify-content="space-between"
 				>
 					<Column col="4" align-items="center" justify-content="center">
 						<div class="rounded-box" style="width: 100px; height=100px">
@@ -55,7 +55,7 @@
 						<TextView custom-class="font-20" text-alignment="center"
 							>Radita Cahyani S.Kom.</TextView
 						>
-						<img :src="images.dividerBlack" />
+						<img :src="images.dividerGold" />
 						<TextView
 							custom-class="font-14"
 							text-alignment="center"
@@ -90,13 +90,13 @@
 					v-if="isComponentShow"
 					custom-class="mt-10"
 					align-items="center"
-					justify-content="center"
+					justify-content="space-between"
 				>
 					<Column col="8" align-items="center">
 						<TextView custom-class="font-20" text-alignment="center"
 							>Rachmat Hidayat S.T.</TextView
 						>
-						<img :src="images.dividerBlack" />
+						<img :src="images.dividerGold" />
 						<TextView
 							custom-class="font-14"
 							text-alignment="center"

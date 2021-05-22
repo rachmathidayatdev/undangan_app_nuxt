@@ -15,6 +15,7 @@ export default {
 				cpp: IMAGES.CPP,
 				cpw: IMAGES.CPW,
 				dividerBlack: IMAGES.DIVIDER_BLACK,
+				dividerGold: IMAGES.DIVIDER_GOLD,
 			},
 			icons: {
 				bismillahBlack: ICONS.BISMILLAH_BLACK_ICON,
