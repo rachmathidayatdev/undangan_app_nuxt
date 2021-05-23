@@ -39,11 +39,47 @@
         @extend .px-20;
         @extend .py-10;
         font-family: "GreatVibes";
-        color: map-get($colors, goldenDream);
-        font-weight: 600;
-        border: 2px solid map-get($colors, goldenDream);
+        cursor: pointer;
+        background: map-get($colors, transparent);;
+        border: 1px solid map-get($colors, goldenDream);
+        outline: none;
+        transition: 2s ease-in-out;
+        @extend .position-relative;
         @extend .border-radius-10;
+
+        svg {
+          @extend .position-absolute;
+          left: 0;
+          top: 0;
+          fill: none;
+          stroke: darken(map-get($colors, goldenDream), 15%);
+          stroke-width: 4;
+          stroke-dasharray: 150 480;
+          stroke-dashoffset: 150;
+          transition: 2s ease-in-out;
+          @extend .border-radius-10;
+        }
+
+        &.is-blink {
+          transition: 2s ease-in-out;
+          background-color: darken(map-get($colors, goldenDream), 15%);
+
+          svg {
+            stroke-dashoffset: -480;
+          }
   
+          span {
+            color: map-get($colors, white);
+          }
+        }
+
+        span {
+          font-family: "GreatVibes";
+          color: map-get($colors, goldenDream);
+          @extend .font-14;
+          font-weight: bold;
+        }
+
         &:focus {
           outline: none;
         }

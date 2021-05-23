@@ -75,13 +75,24 @@
 					>
 				</CustomTransition>
 				<CustomTransition name="bounce-custom">
-					<button
+					<!-- <button
 						v-if="isComponentShow && guestName && guestLocation"
-						class="btn-undangan mt-20"
+						:class="`btn-undangan ${isButtonBlink ? 'is-blink' : ''} mt-20`"
 						type="button"
 						@click="goToMain"
 					>
 						Buka Undangan
+					</button> -->
+					<button
+						:class="`btn-undangan ${isButtonBlink ? 'is-blink' : ''} mt-20`"
+						type="button"
+						@click="goToMain"
+					>
+						<svg width="120px" height="45px" viewBox="0 0 120 45">
+							<polyline points="119,1 119,44 1,44 1,1 119,1" />
+							<polyline points="119,1 119,44 1,44 1,1 119,1" />
+						</svg>
+						<span>Buka Undangan</span>
 					</button>
 				</CustomTransition>
 			</Column>

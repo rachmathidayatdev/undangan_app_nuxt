@@ -15,6 +15,7 @@ export default {
 				dividerGold: IMAGES.DIVIDER_GOLD,
 			},
 			isComponentShow: false,
+			isButtonBlink: false,
 		}
 	},
 	computed: {
@@ -32,6 +33,10 @@ export default {
 		setTimeout(() => {
 			this.isComponentShow = true
 		}, 500)
+
+		this.myInterval = setInterval(() => {
+			this.setButtonBlink()
+		}, 4000)
 	},
 	methods: {
 		goToMain() {
@@ -39,5 +44,14 @@ export default {
 				`${ROUTES.MEMPELAI.url}?guestName=${this.guestName}&guestLocation=${this.guestLocation}&sesi=${this.sesi}`,
 			)
 		},
+		setButtonBlink() {
+			this.isButtonBlink = true
+			setTimeout(() => {
+				this.isButtonBlink = false
+			}, 2000)
+		},
+	},
+	beforeDestroy() {
+		clearInterval(this.myInterval)
 	},
 }
